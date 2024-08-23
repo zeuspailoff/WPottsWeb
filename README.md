@@ -1,16 +1,20 @@
-# Panadería Tradicional de Inglaterra W.Potts & son
+# W.Potts & Son Traditional Bakery of England
 
-Bienvenido al proyecto de la **Panadería Tradicional de Inglaterra W.Potts & son**, una página web dedicada a una pequeña pero histórica panadería ubicada en el corazón del Norte de Inglaterra. Con más de un siglo de historia, esta panadería ha sido un pilar en la comunidad local, ofreciendo productos horneados de alta calidad y conservando las tradiciones que han pasado de generación en generación.
+Welcome to the **W.Potts & Son Traditional Bakery of England** project, a website dedicated to a small but historic bakery located in the heart of England. With over a century of history, this bakery has been a cornerstone of the local community, offering high-quality baked goods and preserving traditions passed down through generations.
 
-## Descripción del Proyecto
+## Project Description
 
-Este proyecto es una aplicación web desarrollada con el objetivo de proporcionar una experiencia digital moderna para los clientes de la panadería. Aquí, los visitantes pueden explorar la historia de la panadería, conocer nuestros productos y estar al tanto de las últimas noticias y eventos.
+This project is a web application developed with the goal of providing a modern digital experience for the bakery's customers. Here, visitors can explore the bakery's history, discover our products, place online orders, and stay updated on the latest news and events.
 
-El proyecto ha sido implementado utilizando **React** y **Vite**, tecnologías que permiten una experiencia de usuario rápida y fluida, asegurando que la esencia y tradición de la panadería se reflejen en cada rincón de la página web.
+The project has been implemented using **React** and **Vite**, technologies that allow for a fast and smooth user experience, ensuring that the essence and tradition of the bakery are reflected in every corner of the website.
 
-## Características
+## Features
 
-- **Historia de la Panadería**: Una sección dedicada a la rica historia de la panadería, destacando su legado y tradición.
-- **Catálogo de Productos**: Un listado detallado de todos los productos disponibles, con descripciones y precios.
-- **Noticias y Eventos**: Actualizaciones sobre las actividades y eventos especiales de la panadería.
-- **Contacto**: Información de contacto y formulario para consultas.
+- **Bakery History**: A section dedicated to the rich history of the bakery, highlighting its legacy and tradition.
+- **Product Catalog**: A detailed list of all available products, with descriptions and prices.
+- **News and Events**: Updates on the bakery's special activities and events.
+- **Contact**: Contact information and a form for inquiries.
+
+---
+
+Thank you for visiting our project. We hope you enjoy exploring the tradition and flavors of our bakery through this website!
