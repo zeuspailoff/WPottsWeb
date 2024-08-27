@@ -10,12 +10,14 @@ function App() {
 
   return (
     <>
+
       <Nav />
       <Routes>
         <Route path="/" element={Home} />
         <Route path="/contact" element={Contact} />
         <Route path="/history" element={History} />
       </Routes>
+
     </>
   )
 }

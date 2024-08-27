@@ -5,6 +5,10 @@ const Nav = () => {
     return (
 
         <nav id='nav'>
+            <div>
+                <img src='./public/logo/logo.png' alt='logo panaderia' />
+                <h2>W.Potts & Sons</h2>
+            </div>
             <ul >
                 <li>
                     <Link to="/" >Home</Link>
