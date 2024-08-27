@@ -1,0 +1,65 @@
+/* Contenedor principal de navegación */
+#nav {
+    position: fixed;
+    top: 0;
+    background-color: rgb(17, 75, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea el contenido verticalmente */
+    width: 100vw;
+    height: 5em; /* Altura del contenedor de navegación */
+    padding: 0;
+    margin: 0;
+}
+
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el logo */
+}
+
+/* Lista de enlaces */
+.links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: aliceblue;
+    height: 100%; /* Asegura que la lista ocupe toda la altura del contenedor de navegación */
+}
+
+/* Elementos de la lista */
+.links li {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido del li */
+    padding: 0;
+    margin: 0 ; /* Espaciado lateral entre los elementos de la lista */
+    height: 100%;
+    width: 100%; /* Ocupa toda la altura del contenedor */
+    flex: 1; /* Hace que cada li ocupe un espacio igual dentro de la lista */
+}
+
+/* Estilo de los enlaces */
+.links a {
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto del enlace */
+    justify-content: center; /* Centra horizontalmente el texto del enlace */
+    color: aliceblue;
+    text-decoration: none; /* Elimina el subrayado */
+    height: 100%; /* Ocupa toda la altura del li */
+    width: 100%; /* Ocupa todo el ancho del li */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto total */
+   padding: 1em;
+}
+
+.links a:hover{
+    background-color: brown;
+}
+
+/* Estilo del logo */
+.navBarLogo {
+    border-radius: 50%;
+    width: 6em;
+    height: 6em; /* Ajusta la altura del logo para que sea un círculo */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+}

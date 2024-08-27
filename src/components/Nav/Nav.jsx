@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom';
+import './Nav.css'
 
 const Nav = () => {
 
     return (
 
         <nav id='nav'>
-            <div>
-                <img src='./public/logo/logo.png' alt='logo panaderia' />
+            <div className="logo-container">
+                <img src='./public/logo/logo2.png' alt='logo panaderia' className='navBarLogo' />
                 <h2>W.Potts & Sons</h2>
             </div>
-            <ul >
+            <ul className='links'>
                 <li>
                     <Link to="/" >Home</Link>
                 </li>
                 <li>
-                    <Link to="/about" >History</Link>
+                    <Link to="/History" >History</Link>
                 </li>
                 <li>
                     <Link to="/contact" >Contact</Link>
